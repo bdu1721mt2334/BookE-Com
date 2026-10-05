@@ -1,0 +1,58 @@
+.button-style {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+    background: linear-gradient(to right, #67aff3, #0536bc);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.button-style:hover {
+    background: linear-gradient(to right, #0536bc, #67aff3);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 3s;
+}
+
+.button-style2 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, rgb(253, 100, 100));
+    color: White;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+
+}
+
+.button-style2:hover {
+    background: linear-gradient(to right, rgb(253, 100, 100), red);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 1s;
+}
+
+.hove:hover {
+    background-color: #67aff3;
+    color: white;
+    transition: 0.6s;
+}
+
+.Noti-div{
+    position: relative;
+}
+
+.Noti-main{
+    position: absolute;
+    left: 20px;
+    bottom: -23px;
+    display: flex;
+}
